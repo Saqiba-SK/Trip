@@ -1,0 +1,197 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+ header{
+    position: relative;
+    background-image: url("Inspiration.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 1200px;
+ }
+li{
+    list-style-type: none;
+    display: inline;
+    background-image: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#one{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    border: none; 
+    margin-left: 40px;
+    gap:50px;
+}
+#two{
+    text-decoration: none;
+    color: white;
+    margin-right: 175px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 210px;
+    outline: none;
+}
+#two:focus{
+    outline: 2px solid gainsboro;
+}
+#three{
+    position: relative;
+    right: px;
+    
+}
+b{
+    left: 10px;
+    top:10px;
+    color: white;
+    font-size: large;
+}
+.navbar{
+    background-color:transparent;
+    position: absolute;
+    top: 3px;
+    left:80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 86px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius:86px;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:130px;
+}
+p{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 132px;
+}
+#logo{
+    text-align: center;
+      position: relative;
+      top:135px;
+      left: 560px;
+}
+#navbar{
+    background-image: url("Inspiration.jpg");
+    background-size: cover;
+    width: 100%;
+}
+h2{
+    position: relative;
+    left:50px;
+    font:bolder;
+    color: black;
+}
+#another{
+    color: black;
+    font-size: small;
+    right: 450px;
+    top: 17px;
+}
+#hero{
+    background-color: black;
+    border-radius: 86px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+#flexbox{
+    border: 2px solid transparent;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 65px ;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    box-sizing: border-box;
+    gap: 100px;
+    cursor: pointer;
+}
+img{
+    height:300px;
+    width: 250px;
+    border: 2px solid transparent ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    object-fit: cover;
+}
+h3{
+    color:black;
+    display: inline;
+}
+strong{
+    color: black;
+}
+#Box4{
+    position: relative;
+    margin-right: 175px;
+    cursor: pointer;
+    box-shadow: transparent;
+    
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    height: 50px;
+    max-width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    top: 550px;
+    margin-left: 650px;
+    border: none;
+    color: purple;
+    font-style: normal;
+    border-top: 1px solid #333;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:focus {
+     outline: 2px solid gainsboro;
+}
+#five{
+    text-decoration: none;
+    border:1px solid gray;
+    background-color: bisque;
+    font-display: small;
+    border-radius: 2px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.2);
+}
+.clickable-butt{
+    background-color: lightpink;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-icon{
+    padding: 0 10px;
+    text-align: center;
+}
+@media only screen and 
+(max-width:768px){
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+}
